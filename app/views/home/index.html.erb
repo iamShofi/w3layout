@@ -1,0 +1,190 @@
+<script>  
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+<div class="banner-bg banner-bg1">	
+	  <div class="container">
+			 <div class="header">
+			       <div class="logo">
+						 <a href="index.html"><img src="images/logo.png" alt=""/></a>
+				   </div>							 
+				  <div class="top-nav">										 
+						<label class="mobile_menu" for="mobile_menu">
+						<span>Menu</span>
+						</label>
+						<input id="mobile_menu" type="checkbox">
+					   <ul class="nav">
+                           
+						  <li class="dropdown1"><a>BIKES</a>
+							  <ul class="dropdown2">
+									<li><a href="bicycles.html">NEW BIKES</a></li>
+									<li><a href="vpgco.html">VELOCE</a></li>
+									<li><a href="tgbm.html">TREK</a></li>
+                                    <li><a href="vpgco.html">PHOENIX</a></li>
+									<li><a href="tgbm.html">GIANT</a></li>
+                                    <li><a href="vpgco.html">GHOST</a></li>
+                                    <li><a href="tgbm.html">BINACHI</a></li>
+									<li><a href="vpgco.html">CORE</a></li>
+                                    <li><a href="tgbm.html">MUSTANG</a></li>
+									<li><a href="vpgco.html">OTHERS</a></li>
+							  </ul>
+						  </li>
+                          <li class="dropdown1"><a href="kids%20item.html">KIDS ITEM</a>
+							 
+				          </li>
+						  <li class="dropdown1"><a href="parts.html">PARTS</a>
+							 
+						 </li>      
+						 <li class="dropdown1"><a href="accessories.html">ACCESSORIES</a>
+							 
+						 </li>               
+						 <li class="dropdown1"><a href="about.html">ABOUT US</a>
+							 
+						 </li>
+						  
+					  </ul>
+                      
+                      
+				 </div>
+				 <div class="clearfix"></div>
+                 
+			 </div>
+	  </div>	 
+	 <div class="caption">
+		 <div class="slider">
+					   <div class="callbacks_container">
+						   <ul class="rslides" id="slider">
+							    <li><h1>PEDAL HOUSE</h1></li>
+									
+						  </ul>
+						  <p>Burn <span>Fat,</span> Not <span>Fuel</span> </p>
+						  <a class="morebtn" href="bicycles.html">EXPLORE BIKES</a>
+					  </div>
+				  </div>
+	 </div>
+	 <div class="dwn">
+		<a class="scroll" href="#cate"><img src="images/scroll.png" alt=""/></a>
+	 </div>				 
+</div>
+<!--/banner-->
+<div id="cate" class="categories">
+	 <div class="container">
+		 <h3>OUR PRODUCTS</h3>
+		 <div class="categorie-grids">
+			 <a href="kids%20item.html"><div class="col-md-4 cate-grid grid1">
+				 <h4>KIDS ITEM</h4>
+				 <p>The Best Kids Riding Products In Sylhet</p>
+				 <a class="store" href="kids%20item.html">VISIT KIDS ITEM</a>
+			 </div></a>
+			 <a href="bicycles.html"><div class="col-md-4 cate-grid grid2">
+				 <h4>PARTS</h4>
+				 <p>Exclusive Bike Parts</p>
+				 <a class="store" href="parts.html">VISIT PARTS</a>
+			 </div></a>
+			 <a href="bicycles.html"><div class="col-md-4 cate-grid grid3">
+				 <h4>ACCESSORIES</h4>
+				 <p>Exclusive Bike Accessories</p>
+				 <a class="store" href="accessories.html">VISIT ACCESSORIES</a>
+			 </div></a>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!--bikes-->
+<div class="bikes">	
+		 <h3>LATEST BIKES</h3>
+		 <div class="bikes-grids">			 
+			 <ul id="flexiselDemo1">
+				 <li>
+					 <img src="images/bik1.jpg" alt=""/>
+					 
+					 <div class="viw">
+						<a href="bicycles.html">Quick View</a>
+					 </div>
+				 </li>
+				 <li>
+				 <img src="images/bik2.jpg" alt=""/>
+				 
+					 <div class="viw">
+						<a href="bicycles.html">Quick View</a>
+					 </div>
+				 </li>
+				
+				 <li>
+				      <img src="images/bik6.jpg" alt=""/>
+					  
+					 <div class="viw">
+						<a href="bicycles.html">Quick View</a>
+					 </div>
+				 </li>
+		    </ul>
+			<script type="text/javascript">
+			 $(window).load(function() {			
+			  $("#flexiselDemo1").flexisel({
+				visibleItems: 3,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover:true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: { 
+					portrait: { 
+						changePoint:480,
+						visibleItems: 1
+					}, 
+					landscape: { 
+						changePoint:640,
+						visibleItems: 2
+					},
+					tablet: { 
+						changePoint:768,
+						visibleItems: 3
+					}
+				}
+			});
+			});
+			</script>
+			<script type="text/javascript" src="js/jquery.flexisel.js"></script>			 
+	</div>
+</div>
+<!---->
+<div class="contact">
+	<div class="container">
+		<h3>CONTACT US</h3>
+		<p>Please contact us for all inquiries and purchase options.</p>
+		<form>
+			 <input type="text" placeholder="NAME" required="">
+			 <input type="text" placeholder="SURNAME" required="">			 
+			 <input class="user" type="text" placeholder="USER@DOMAIN.COM" required=""><br>
+			 <textarea placeholder="MESSAGE"></textarea>
+			 <input type="submit" value="SEND">
+		</form>
+	</div>
+</div>
+
+<!---->
+<div class="footer">
+	 <div class="container wrap">
+		<div class="logo2">
+			 <p class="copyright">2017 | Developed By <a href="https://www.facebook.com/shofi9x">Hussain</a> & <a href="https://www.facebook.com/ahmed.z.mahin">Zaman</a></p>
+		</div>
+		<div class="ftr-menu">
+			 <ul>
+				 <li><a href="bicycles.html">BIKES</a></li>
+                 <li><a href="kids%20item.html">KIDS ITEM</a></li>
+				 <li><a href="parts.html">PARTS</a></li>
+				 <li><a href="accessories.html">ACCESSORIES</a></li>
+				 
+			 </ul>
+		</div>
+		<div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
