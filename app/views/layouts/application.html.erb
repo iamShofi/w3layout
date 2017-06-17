@@ -25,7 +25,7 @@
 	  <div class="container">
 			 <div class="header">
 			       <div class="logo">
-						 <a href="index.html"><img src="assets/logo.png" alt=""/></a>
+						 <a><img src="assets/logo.png" alt=""/></a>
 				   </div>							 
 				  <div class="top-nav">										 
 						<label class="mobile_menu" for="mobile_menu">
@@ -36,6 +36,7 @@
                            
 						  <li class="dropdown1"><a>BIKES</a>
 							  <ul class="dropdown2">
+							  <li><a><%= link_to 'bikes', {:controller => 'home', :action => 'bikes'} %></a></li>
 									<li><a href="bicycles.html">NEW BIKES</a></li>
 									<li><a href="vpgco.html">VELOCE</a></li>
 									<li><a href="tgbm.html">TREK</a></li>
